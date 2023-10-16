@@ -1,0 +1,70 @@
+
+.head {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	background-color:#242526;
+    color:white;
+    height: 56px;
+    width: 100%;
+    padding: 0 10px;
+    position: fixed;
+}
+
+.left-side {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    gap: 5px;
+}
+
+img{
+    width: 50px;
+}
+
+.facebook-icon {
+    width: 48px;
+}
+
+.search-icon, .plus-icon,
+.messenger-icon, .notification-icon {
+    width: 22px;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+
+.container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(117, 117, 117, 0.4);
+}
+
+.menu-icon {
+    width: 40px;
+    padding-left: 15px;
+}
+
+.right-side {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.profile {
+    width: 55px;
+    height: 55px;
+    display: grid;
+    margin: 10px 10px 0 0;
+}
+
+.profile img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
