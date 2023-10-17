@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+* {
+    font-family: roboto, Arial;
+}
+.updates {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #242526;
+    padding: 13px 0 13px 0;
+}
+
+.updates .for-post {
+    width: 95%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50px 1fr;
+    width:93%;
+}
+
+.for-post img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.for-post input {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgba(117,117,117, 0.4);
+    border: none;
+}
+
+.updates input::placeholder, .action,
+.actions-for-post{
+    color: rgb(204, 204, 204);
+}
+
+.divider {
+    margin: 10px ;
+    border-bottom:solid 1px rgb(65, 65, 65);
+    width:93%;
+}
+
+.actions-for-post, .action {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(167, 167, 167);
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions-for-post {
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.action img {
+    width: 30px;
+}
+
+.actions-for-post p{
+    padding-left: 5px;
+}
